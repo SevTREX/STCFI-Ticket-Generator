@@ -1,0 +1,19 @@
+PROGRAMS NEEDED IN ORDER FOR THE GENERATOR TO RUN PROPERLY:
+	1. Visual Studio Code
+	2. Live Server(VScode Extension)
+
+
+HOW TO RUN THE PROGRAM:
+1. Open the folder(Default name is: STCFI TICKET GENERATOR) in Visual Studio Code.
+2. Open the "index.html" file.
+3. Right-click the file and click "Open with live server" / Click "Go Live" on the bottom right corner of the VSCode window.
+
+
+HOW TO GENERATE TICKET:
+1. You will be greeted with 2 button ("EOP VIOLATION" and "PRINTING PASS").
+2. Click the button for which ticket you would like to generate.
+3. Enter the QUANTITY(How many you would like to generate) and INDEX(Number which the first ticket generated will start).
+4. Click "GENERATE".
+5. The "GENERATE" button will turn grey(Disabled), you can now click "PRINT".
+6. A new tab will open and will automatically open the Print Dialog.
+	Note: If you accidentally close the Print Dialog and haven't prinyed it yet, you can press "Ctrl + P" on your keyboard to open it again.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+    <link rel="stylesheet" href="assets/style/headerfooter.css">
+    <link rel="stylesheet" href="assets/style/generator.css">
+</head>
+<body>
+    <a href="index.html" class="header-link">
+        <header>
+            <div class="stc-logo logo-con">
+                <img src="assets/images/stc.png" alt="STCFI" class="logo">
+            </div>
+            <h1>STCFI VIOLATION & PASS GENERATOR</h1>
+            <div class="stc-sg-logo logo-con">
+                <img src="assets/images/stc-sg.png" alt="STCFI SG" class="logo">
+            </div>
+        </header>
+    </a>
+
+    <div class="generator-con">
+        <div class="content">
+            <div class="input-con">
+                <label class="lblStyle">QUANTITY:
+                    <input type="number" name="" id="js-quantity" class="input-style">
+                </label>
+                <label class="lbl lblStyle">INDEX:
+                    <input type="number" name="" id="js-index" class="input-style" max="100">
+                </label>
+            </div>
+            <br>
+            <div class="btn-con">
+                <button class="generate-btn gen-btn">GENERATE</button>
+                <a href="render.html" target="_blank">
+                    <button class="print-btn gen-btn" disabled>PRINT</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3 class="cred">
+            MADE BY: STUDENT GOVERNMENT OF SOUTHERN TECH COLLEGE FOUNDATION INCORPORATED - BATCH 2024-2025
+        </h3>
+    </footer>
+
+    <script type="module" src="scripts/generate.js"></script>
+</body>
+</html>
